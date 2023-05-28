@@ -1,0 +1,9 @@
+#logo-header {
+    background: rgba(0, 0, 0, 0) url("fdsbc-logo-navbar.png") no-repeat
+      scroll 0%;
+    border: 0;
+    float: left !important;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+  }
