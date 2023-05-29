@@ -1,0 +1,19 @@
+body {
+  background-color: aqua;
+}
+img {
+  width: 180px;
+  height: 250px;
+}
+.embla {
+    overflow: hidden;
+    border: solid;
+  }
+  .embla__container {
+    display: flex;
+  }
+  .embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+  }
+  
