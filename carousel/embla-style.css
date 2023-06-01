@@ -1,19 +1,39 @@
-body {
-  background-color: aqua;
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-img {
+
+#wrapper {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.aquisitions img {
   width: 180px;
   height: 250px;
 }
 .embla {
-    overflow: hidden;
-    border: solid;
-  }
-  .embla__container {
-    display: flex;
-  }
-  .embla__slide {
-    flex: 0 0 100%;
-    min-width: 0;
-  }
-  
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.aquisitions {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.fdsbc-text-center {
+  text-align: center;
+}
